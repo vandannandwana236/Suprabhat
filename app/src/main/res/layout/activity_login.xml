@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activities.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/suprabhat"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/text_view_design"
+        android:backgroundTint="#83000000"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:textColorHint="#616161"
+        tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/text_view_design"
+        android:backgroundTint="#83000000"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:textColorHint="#616161"
+        tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#66FD0000"
+        android:text="Login"
+        app:cornerRadius="8dp"
+        tools:ignore="TextContrastCheck,VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/signup_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to create account!!"
+        android:textAlignment="center"
+        android:textColor="#2A4091"
+        android:textSize="14sp" />
+
+</LinearLayout>
