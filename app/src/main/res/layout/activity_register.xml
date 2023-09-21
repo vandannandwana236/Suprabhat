@@ -21,12 +21,12 @@
 
 
     <EditText
-        android:id="@+id/user_name"
+        android:id="@+id/signup_user_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@drawable/text_view_design"
-        android:backgroundTint="#83000000"
+        android:backgroundTint="#48000000"
         android:ems="10"
         android:hint="Name"
         android:inputType="text"
@@ -35,12 +35,12 @@
         android:textColorHint="#616161" />
 
     <EditText
-        android:id="@+id/user_email"
+        android:id="@+id/signup_user_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@drawable/text_view_design"
-        android:backgroundTint="#83000000"
+        android:backgroundTint="#48000000"
         android:ems="10"
         android:hint="@string/email"
         android:inputType="text"
@@ -50,12 +50,12 @@
         tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
 
     <EditText
-        android:id="@+id/user_password"
+        android:id="@+id/signup_user_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@drawable/text_view_design"
-        android:backgroundTint="#83000000"
+        android:backgroundTint="#48000000"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="text"
@@ -65,17 +65,17 @@
         tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
 
     <Button
-        android:id="@+id/register_button"
+        android:id="@+id/signup_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="#66FD0000"
+        android:backgroundTint="#2C00C2FD"
         android:text="Register"
         app:cornerRadius="8dp"
         tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
     <TextView
-        android:id="@+id/signup_textview"
+        android:id="@+id/login_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Click to login existing account!!"
