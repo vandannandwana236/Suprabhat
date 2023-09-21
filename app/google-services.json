@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "288514954265",
+    "project_id": "suprabhat-dfcbe",
+    "storage_bucket": "suprabhat-dfcbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288514954265:android:13848093a83b330eee0688",
+        "android_client_info": {
+          "package_name": "com.example.suprabhat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrW6WCCPSc1fHP9jzwqjHSnBiax3qk-Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
